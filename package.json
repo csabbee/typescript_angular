@@ -1,0 +1,14 @@
+{
+  "name": "typescript_angular",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Csaba Véályi",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8"
+  }
+}
