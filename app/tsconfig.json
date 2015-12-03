@@ -3,7 +3,7 @@
         "target": "es5",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "module": "commonjs",
+        "module": "amd",
         "noImplicitAny": false,
         "rootDir": ".",
         "out": "built/tsc.js",

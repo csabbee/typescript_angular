@@ -1,13 +1,13 @@
-/// <reference path="Validation.ts" />
-/// <reference path="letters-only-validator.ts" />
-/// <reference path="zip-code-validator.ts" />
+import {StringValidator} from './validation';
+import {ZipCodeValidator, myAdd, myNewAdd} from './ZipCodeValidator';
+import {LettersOnlyValidator} from './LettersOnlyValidator';
 
 // Some samples to try
 var strings = ['Hello', '98052', '101'];
 // Validators to use
-var validators: { [s: string]: Validation.StringValidator; } = {};
-validators['ZIP code'] = new Validation.ZipCodeValidator();
-validators['Letters only'] = new Validation.LettersOnlyValidator();
+var validators: { [s: string]: StringValidator; } = {};
+validators['ZIP code'] = new ZipCodeValidator();
+validators['Letters only'] = new LettersOnlyValidator();
 // Show whether each string passed each validator
 strings.forEach(s => {
     for (var name in validators) {
