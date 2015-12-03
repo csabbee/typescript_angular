@@ -9,6 +9,8 @@
   "author": "Csaba Véályi",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.4.8"
+    "angular": "^1.4.8",
+    "requirejs": "^2.1.22",
+    "typescript": "^1.5.3"
   }
 }
